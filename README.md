@@ -1,5 +1,5 @@
 # Bird-Classification
-ResNet-34 Model trained from scratch to classify 450 different species of bird with 98% accuracy.
+This project showcases a ResNet-34 model trained on 450 bird species images, achieving 98.6% test accuracy. The model was fine-tuned rom a pre-trained ResNet-34 model on the CIFAR-10 dataset. The ResNet-34 model was first trained from scratch on CIFAR-10 Dataset and achieved test accuracy of 94% it is available [here](https://github.com/Moddy2024/ResNet-34) using this as a backbone and an extra max-pooling layer in the network the model was trained for 30 epochs which took 8 hours on a P100 GPU with Adam Optimizer and COSINE Annealing. The model was trained for 7 epochs more with different combination data augmentations so it can classify birds correctly in different places in an image with a lower learning rate on AWS Sagemaker on a NVIDIA V100 GPU for about 5 hours. This was done so a higher testing accuracy can be achieved. 
 # Dependencies
 * [PyTorch](https://pytorch.org/)
 * [Matplotlib](https://matplotlib.org/)
