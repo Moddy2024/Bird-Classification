@@ -14,8 +14,8 @@ Once you have these dependencies installed, you can clone the Bird Classificatio
 https://github.com/Moddy2024/Bird-Classification.git
 ```
 # Key Files
-* [training.ipynb](https://github.com/Moddy2024/Bird-Classification/blob/main/training.ipynb) - This file shows how the dataset has been downloaded, how the data looks like, the transformations, data augmentations, architecture of the ResNet and the training.
-* [training-sagemaker.ipynb](https://github.com/Moddy2024/Bird-Classification/blob/main/training-sagemaker.ipynb) -
+* [training.ipynb](https://github.com/Moddy2024/Bird-Classification/blob/main/training.ipynb) - This file shows how the dataset has been downloaded, how the data looks like, the transformations, data augmentations, architecture of the ResNet the training and the validation and test accuracy.
+* [training-sagemaker.ipynb](https://github.com/Moddy2024/Bird-Classification/blob/main/training-sagemaker.ipynb) - In this file I did even more data augmentations and trained for 7 more epochs with a lower learing rate to achieve higher accuracy.
 * [prediction.ipynb](https://github.com/Moddy2024/Bird-Classification/blob/main/prediction.ipynb) - This file loads the trained model file and shows how to do predictions on single images, multiple images contained in a folder and images(multiple or single) that can be uploaded to google colab temporarily to perform the prediction.
 * [trained-models](https://github.com/Moddy2024/Bird-Classification/tree/main/trained-models) - This directory contains the best trained model and the trained model saved after the last epoch.
 * [test-data](https://github.com/Moddy2024/Bird-Classification/tree/main/test-data) - This directory contains test images collected randomly from the internet of different categories, sizes and shape for performing the predictions and seeing the results.
