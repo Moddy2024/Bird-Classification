@@ -28,7 +28,7 @@ A significant shortcoming of the dataset is the imbalance of male to female imag
 # Dataset
 The BIRDS 450 SPECIES dataset can be downloaded from [here](https://www.kaggle.com/datasets/gpiosenka/100-bird-species).
 
-In this repository the dataset has been downloaded using wget command as seen below.
+In this repository the dataset has been downloaded using wget command in the terminal.
 ```bash
 !wget --no-check-certificate \
     "https://storage.googleapis.com/kaggle-data-sets/534640/4269088/bundle/archive.zip?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=gcp-kaggle-com%40kaggle-161607.iam.gserviceaccount.com%2F20230118%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20230118T114015Z&X-Goog-Expires=259200&X-Goog-SignedHeaders=host&X-Goog-Signature=74e20b8164ad4532398558fa350cab86e2f138b95274ef7e6a8f2084f8ff847cc4d907f1a86e879ea255e3ecabb3985b729b2826e6b307a2dfbd73b22f6b4249070581333089cc3c048d14ee21f030ad3f7f2d3850f2774300b8dea9861f69b7072c38d48cb566c9d824adee801e87a2612c1b686e145341ccdadb0b252746ec7a6e7c5d89036717c9ff104a58e29c4580e6897290d8954baff56b8ba04e830e3cbb3bd31cb66b5dcf98a66ed2ccc40d8c338de6a323a997144756aaf91529c61f3db84e0f7a82a294345c4c27d2ae4a8165a536a47d3ae2b55563cbd38a3af52ca05a45e5d1065fa03e16a6d1220b624aa6b9ac8cbc6313e7da3037259c93be" \
